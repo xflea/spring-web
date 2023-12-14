@@ -37,7 +37,7 @@
 							<a th:href="@{/employees/showFormForUpdate( employeeId = ${tempEmployee.id} )}">
 								<button type="button" class="btn btn-primary">Update</button>
 							</a>
-							<a th:href="@{/employees/showFormForAdd}">
+							<a th:href="@{/employees/delete/__${tempEmployee.id}__}">
 								<button type="button" class="btn btn-danger">Delete</button>
 							</a>
 						</td>
