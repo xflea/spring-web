@@ -24,7 +24,7 @@ public class AppController {
 	
 	@GetMapping("/list")
 	public String findAllEmployee(Model model) {
-		List<Employee> listEmployees = employeeService.findAll();
+		List<Employee> listEmployees = employeeService.findAllByRest();
 		
 		model.addAttribute("employees", listEmployees);
 		

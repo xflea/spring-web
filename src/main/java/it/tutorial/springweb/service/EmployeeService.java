@@ -14,4 +14,6 @@ public interface EmployeeService {
 	
 	public void delete(Long id);
 	
+	public List<Employee> findAllByRest();
+	
 }
